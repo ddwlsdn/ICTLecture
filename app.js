@@ -32,6 +32,7 @@ app.use(methodOverride("_method"));
 app.use('/', require('./routes/main'));
 app.use('/posts', require('./routes/post'));
 
+
 // Port Setting
  var server = app.listen(PORT, function(){
 	console.log("Connected!")
